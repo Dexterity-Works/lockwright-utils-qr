@@ -1,3 +1,6 @@
+> [!WARNING]
+> 🍐 PearPass is currently paused from active development, so please use at your own caution until further notice.
+
 # pear-apps-utils-qr
 
 A lightweight utility package for generating QR codes in SVG format. This package provides a simple Promise-based API to create QR codes for URLs, text, or any other data you need to encode.
