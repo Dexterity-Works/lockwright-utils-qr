@@ -24,7 +24,7 @@ Community fork of PearPass (Apache 2.0). Not affiliated with or endorsed by Teth
 
 ## Security Notice
 
-Imports stay `@tetherto/pear-apps-utils-qr`. That npm name is not this fork if you install it from the npm registry.
+The package name is `lockwright-utils-qr`.
 
 ## Installation
 
@@ -35,7 +35,7 @@ npm install git+https://github.com/Dexterity-Works/lockwright-utils-qr.git
 ## Usage Examples
 
 ```javascript
-import { generateQRCodeSVG } from '@tetherto/pear-apps-utils-qr';
+import { generateQRCodeSVG } from 'lockwright-utils-qr';
 
 // Basic usage
 generateQRCodeSVG('https://example.com', { type: 'svg', margin: 4 })
