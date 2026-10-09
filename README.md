@@ -1,5 +1,9 @@
 # lockwright-utils-qr
 
+> **Moved to [`lockwright-lib-utils`](https://github.com/Dexterity-Works/lockwright-lib-utils).** Import `lockwright-lib-utils/qr` instead; the exports are the same. This repo is archived and keeps its history.
+>
+> Why: five small util repos meant up to five commit pins in every Lockwright app and library. They only ever changed together, and two of those pins had already drifted apart. One package means one pin per app.
+
 A lightweight utility package for generating QR codes in SVG format. This package provides a simple Promise-based API to create QR codes for URLs, text, or any other data you need to encode.
 
 Site: [lockwright.dexterity.works](https://lockwright.dexterity.works)
